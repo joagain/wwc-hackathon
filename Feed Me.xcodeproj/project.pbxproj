@@ -21,6 +21,7 @@
 		7901B12D1AE2DA0A008127D5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901B12C1AE2DA0A008127D5 /* OpenGLES.framework */; };
 		7901B12F1AE2DA12008127D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901B12E1AE2DA12008127D5 /* QuartzCore.framework */; };
 		7901B1311AE2DA19008127D5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7901B1301AE2DA19008127D5 /* SystemConfiguration.framework */; };
+		7901B1361AE2E08E008127D5 /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7901B1351AE2E08E008127D5 /* PlaceMarker.swift */; };
 		B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48F646D19B22EB200710BEB /* AppDelegate.swift */; };
 		B48F647319B22EB200710BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48F647119B22EB200710BEB /* Main.storyboard */; };
 		B48F647519B22EB200710BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48F647419B22EB200710BEB /* Images.xcassets */; };
@@ -60,6 +61,7 @@
 		7901B12E1AE2DA12008127D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7901B1301AE2DA19008127D5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7901B1321AE2DB30008127D5 /* Feed Me-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Feed Me-Bridging-Header.h"; path = "../Feed Me/Feed Me-Bridging-Header.h"; sourceTree = "<group>"; };
+		7901B1351AE2E08E008127D5 /* PlaceMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaceMarker.swift; path = "Feed Me/PlaceMarker.swift"; sourceTree = "<group>"; };
 		B48F646819B22EB200710BEB /* Feed Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feed Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48F646C19B22EB200710BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48F646D19B22EB200710BEB /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		B48F645F19B22EB200710BEB = {
 			isa = PBXGroup;
 			children = (
+				7901B1351AE2E08E008127D5 /* PlaceMarker.swift */,
 				B48F646A19B22EB200710BEB /* Feed Me */,
 				B48F647D19B22EB200710BEB /* Feed MeTests */,
 				B48F646919B22EB200710BEB /* Products */,
@@ -321,6 +324,7 @@
 				B48F646E19B22EB200710BEB /* AppDelegate.swift in Sources */,
 				B48F649219B22F9400710BEB /* GoogleDataProvider.swift in Sources */,
 				B48F649319B22F9400710BEB /* GooglePlace.swift in Sources */,
+				7901B1361AE2E08E008127D5 /* PlaceMarker.swift in Sources */,
 				B48F648E19B22F8700710BEB /* MapViewController.swift in Sources */,
 				B48F649A19B22F9B00710BEB /* UIViewExtension.swift in Sources */,
 				B48F649C19B22FA500710BEB /* TypesTableViewController.swift in Sources */,
