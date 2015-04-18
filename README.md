@@ -1,2 +1,2 @@
 # wwc-hackathon
-WWC Hackathon is here!
+WWC Hackathon - Food by foot!
